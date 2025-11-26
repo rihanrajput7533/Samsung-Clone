@@ -71,7 +71,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00c6ff;
     position: relative;
     right: 29px;
   }
@@ -501,6 +500,7 @@
     align-items: flex-end;
     gap: 10px;
   }
+
 
 
 }
