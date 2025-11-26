@@ -1,0 +1,506 @@
+/* mobile  */
+
+@media only screen and (max-device-width: 480px) {
+
+  /* STYLES HERE */
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .samsung {
+    position: absolute;
+    left: 10px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .icons {
+    position: absolute;
+    right: 15px;
+    gap: 1px;
+  }
+
+  .search-box input {
+    display: none;
+  }
+
+  .search-box i {
+    position: absolute;
+    right: 85px;
+    color: #333;
+    font-size: 1.2rem;
+  }
+
+  .hero-content {
+    position: absolute;
+    top: 150px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 0 10px;
+  }
+
+  .bg-video2 {
+    display: none;
+
+  }
+
+  .hero-text {
+    display: none;
+  }
+
+  .hero2 {
+    width: 100%;
+  }
+
+
+  .hero2Img {
+    width: 110%;
+    height: 100vh;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00c6ff;
+    position: relative;
+    right: 29px;
+  }
+
+  .hero2Img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./photo/al\ photo.avif");
+    background-size: cover;
+    background-position: center
+  }
+
+  .hero2Img h1 {
+    font-size: 35px;
+    top: 30px;
+    left: 44px;
+    font-family: "Lato", sans-serif;
+    position: absolute;
+    color: #000;
+    /* fallback */
+    background: linear-gradient(90deg, #0c0b06 0%, #000000 25%, #282825 50%, #151512 75%, #252520 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow: hidden;
+  }
+
+  .hero2Img h1::after {
+    content: "";
+    position: absolute;
+    top: -40%;
+    left: -40%;
+    width: 40%;
+    height: 180%;
+    transform: rotate(25deg);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.0));
+    filter: blur(10px);
+    animation: sweep 5s linear infinite;
+    pointer-events: none;
+  }
+
+  @keyframes sweep {
+    0% {
+      left: -60%;
+    }
+
+    50% {
+      left: 120%;
+    }
+
+    100% {
+      left: 120%;
+    }
+  }
+
+  .hero2Img h2 {
+    font-size: xx-large;
+    font-family: "Lato", sans-serif;
+    top: 77px;
+    left: 98px;
+    position: absolute;
+    color: #000;
+    /* fallback */
+    background: linear-gradient(90deg, #0c0b06 0%, #000000 25%, #282825 50%, #151512 75%, #252520 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow: hidden;
+  }
+
+  .hero2Img h4 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: large;
+    text-decoration: underline 2px solid black;
+    top: 240px;
+    left: 70px;
+    position: absolute;
+    color: #424040;
+  }
+
+  .hero2Img h2::after {
+    content: "";
+    position: absolute;
+    top: -40%;
+    left: -40%;
+    width: 40%;
+    height: 180%;
+    transform: rotate(25deg);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.0));
+    filter: blur(10px);
+    animation: sweep 5s linear infinite;
+    pointer-events: none;
+  }
+
+
+  .hero2Img button::after {
+    content: "";
+    position: absolute;
+    top: -40%;
+    left: -40%;
+    width: 40%;
+    height: 180%;
+    transform: rotate(25deg);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.0));
+    filter: blur(10px);
+    animation: sweep 5s linear infinite;
+    pointer-events: none;
+  }
+
+  .hero2Img button {
+    padding: 10px 24px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: linear-gradient(90deg, #f9e7b8 0%, #f5c94a 25%, #d49a18 50%, #b37407 75%, #f7e0a1 100%);
+    text-decoration: none;
+    right: 80px;
+    top: 230px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 25px;
+    transition: 0.4s ease-in-out;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .hero2Img button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.1;
+    transition: left 0.4s ease;
+  }
+
+  .hero2Img button:hover::before {
+    left: 0;
+  }
+
+  .hero2Img button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-color: #ccc;
+  }
+
+  .hero3 {
+    width: 100%;
+    position: relative;
+    background-image: url("./photo/25_ym_2h_home_hero-kv_preview_mo_720x1248.webp");
+    background-size: cover;
+    background-position: center left 0px;
+    left: 0px;
+
+
+  }
+
+  .info-row3 {
+    display: none;
+
+  }
+
+  .overlay3 {
+    background: none;
+  }
+
+  .heroRes {
+    display: block;
+    width: 300px;
+    height: 500px;
+    /* background-color: #00c6ff; */
+    position: relative;
+  }
+
+  .heroRes button {
+    padding: 10px 24px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: linear-gradient(90deg, #f9e7b8 0%, #f5c94a 25%, #d49a18 50%, #b37407 75%, #f7e0a1 100%);
+    text-decoration: none;
+    right: 130px;
+    top: 88px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 25px;
+    transition: 0.4s ease-in-out;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .heroRes h3 {
+    position: absolute;
+    font-family: "Lato", sans-serif;
+    color: #514949;
+    top: 50px;
+    right: 115px;
+    font-size: 14px;
+  }
+
+  .heroRes h1 {
+    position: absolute;
+    color: #000;
+    font: 2em sans-serif;
+    font-family: "Nunito Sans", sans-serif;
+
+
+  }
+
+  .info-row3 p {
+    position: absolute;
+    top: 13px;
+
+
+  }
+
+  .btn3 {
+    position: absolute;
+
+    left: 100px;
+  }
+
+  .Resdiv {
+    display: flex;
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .resHeading h3 {
+    position: absolute;
+    display: flex;
+    background-color: #00c6ff;
+    width: 100%;
+    height: 100%;
+  }
+
+  .Resdiv img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero4 {
+    background-image: none;
+    background-color: none;
+  }
+
+  .hero-text4 {
+    display: none;
+    background-color: none;
+  }
+
+  .learn-buy4 button {
+    display: none;
+  }
+
+  .card-container4 {
+    position: relative;
+    right: 12.50%;
+
+  }
+
+  .slider-container5 {
+    background: none;
+  }
+
+  .slider-controls5 {
+    display: none;
+  }
+
+  .button-container6 {
+    position: relative;
+    left: 65%;
+  }
+
+  .list-1 p {
+
+    display: none;
+  }
+
+  .list h6 {
+    display: block;
+    position: absolute;
+    width: 300px;
+    font-family: Arial, sans-serif;
+    left: 15px;
+    line-height: 20px;
+
+
+  }
+
+  .table {
+    display: none;
+  }
+
+  .paragrph {
+    display: none;
+
+    position: absolute;
+    line-height: none;
+  }
+
+  .last-navebar p {
+    position: absolute;
+    bottom: 0px;
+  }
+
+  .icon-last p {
+    display: none;
+
+  }
+
+  .icon-last {
+    position: relative;
+    right: 27%;
+  }
+
+  .navebar-laste ul {
+    display: none;
+  }
+
+  .icon-last {
+    display: none;
+  }
+
+  .iconres {
+    display: flex;
+    position: absolute;
+    right: 119px;
+    padding-top: 15px;
+    font-size: x-large;
+    gap: 20px;
+
+  }
+
+  .iconres i {
+    width: 19px;
+    height: 3px;
+  }
+
+  .chat-circle {
+    position: fixed;
+    left: 265px;
+
+  }
+
+  .chat-box {
+    position: fixed;
+    left: 50px;
+  }
+
+}
+
+
+
+
+
+
+/* tablate */
+
+@media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+  /* STYLES HERE */
+
+  nav ul li a {
+    display: none;
+  }
+
+  .hero3 {
+    padding: 40px 20px;
+    align-items: flex-start;
+  }
+
+  .info-row3 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .info-row3 p {
+    font-size: 18px;
+
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .info-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-img {
+    margin-top: 40px;
+
+  }
+
+  .hero-text4 {
+    bottom: 30px;
+    right: 20px;
+    text-align: right;
+  }
+
+  .hero-text4 h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text4 h2 {
+    font-size: 1.2rem;
+  }
+
+  .learn link-buy4 {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+  }
+
+
+}
