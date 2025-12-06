@@ -81,7 +81,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-image: url("./photo/al\ photo.avif");
+    background-image: url("./al\ photo.avif");
     background-size: cover;
     background-position: center
   }
@@ -225,7 +225,7 @@
   .hero3 {
     width: 100%;
     position: relative;
-    background-image: url("./photo/25_ym_2h_home_hero-kv_preview_mo_720x1248.webp");
+    background-image: url("./25_ym_2h_home_hero-kv_preview_mo_720x1248.webp");
     background-size: cover;
     background-position: center left 0px;
     left: 0px;
@@ -504,3 +504,4 @@
 
 
 }
+
