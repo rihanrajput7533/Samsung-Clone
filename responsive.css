@@ -81,7 +81,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-image: url("./al\ photo.avif");
+    background-image: url("./al photo.avif");
     background-size: cover;
     background-position: center
   }
@@ -504,4 +504,5 @@
 
 
 }
+
 
